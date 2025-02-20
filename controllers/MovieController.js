@@ -76,9 +76,7 @@ const DeleteController = async (req,res) => {
 
 const SingleController = async(req,res) => {
     const MovieData = await moviemodel.findById(req.params.id)
-    console.log("edit page render");
-    console.log("single movie page render", MovieData);
-    console.log("Movie image path:", MovieData.path);
+    console.log("single view page render");
     res.render("singlemovie", {MovieData})
 }
 

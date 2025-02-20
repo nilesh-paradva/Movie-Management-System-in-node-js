@@ -27,7 +27,7 @@
                         <th>Country</th>
                         <th>Genre</th>
                         <th>Item Type</th>
-                        <th>Video Upload</th>
+                        <!-- <th>Video Upload</th> -->
                         <th>Link</th>
                         <th>Action</th>
                     </tr>
@@ -35,7 +35,10 @@
                 <tbody>
                     <% MovieData.forEach(movieItem => { %>
                         <tr class="text-center align-middle">
-                            <td><img src="<%= movieItem.path %>" alt="<%= movieItem.title %>" width="200px" style="border-radius: 9px;"></td>
+                            <td><img src="<%= movieItem.path %>" alt="<%= movieItem.title %>" width="200px" style="border-radius: 9px;">
+                            <!-- <a href="<%= movieItem.path %>">img</a>
+                            <p><%= movieItem.path %></p> -->
+                            </td>
                             <td><%= movieItem.title %></td>
                             <td><%= movieItem.description %></td>
                             <td><%= movieItem.releaseYear %></td>
@@ -44,7 +47,7 @@
                             <td><%= movieItem.country %></td>
                             <td><%= movieItem.genre %></td>
                             <td><%= movieItem.itemType %></td>
-                            <td><%= movieItem.videoUpload %></td>
+                            <!-- <td><%= movieItem.videoUpload %></td> -->
                             <td class="text-center"><a href="<%= movieItem.link %>" target="_blank" class="btn btn-sm btn-info">Watch</a></td>
                             <td class="text-center">
                                 <a href="/singleMovie/<%= movieItem._id %>" class="btn btn-sm btn-danger">View</a>
