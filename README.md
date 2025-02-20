@@ -245,9 +245,9 @@ module.exports = {HomeController, AddCntroller, EditController, AddFromControlle
 
 ---
 
-## Views
+## 🏠Views
 
-### Home Page (views/index.ejs)
+### 🏠Home Page (views/index.ejs)
 
 ```html
 <section class="container py-5">
@@ -301,12 +301,12 @@ module.exports = {HomeController, AddCntroller, EditController, AddFromControlle
 
 ---
 
-## Learning Outcomes
-- Implementing CRUD operations using Node.js, Express.js, and MongoDB.
-- Handling image uploads using Multer in a Node.js application.
-- Connecting and performing operations on a MongoDB database.
-- Rendering dynamic pages using EJS.
-- Managing file uploads and handling file storage on the server.
+## 🎯Learning Outcomes
+- 🚀 Implementing CRUD operations using Node.js, Express.js, and MongoDB.
+- 📷 Handling image uploads using Multer in a Node.js application.
+- 🔌 Connecting and performing operations on a MongoDB database.
+- 📝 Rendering dynamic pages using EJS.
+- 💾 Managing file uploads and handling file storage on the server.
 
 ---
 
